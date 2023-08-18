@@ -1,0 +1,60 @@
+Inception:
+
+Whatever we write in root tag and having the child in different file that root tag would be replaced by the script file’s content.
+
+Assignment:
+
+Emmet:
+1- Emmet is basically an abbreviation engine for html and css a plugin in sublime of emmet is used to enhance the speed of ui development.
+
+2- By using shorthands it transforms it in real development of html and css.
+
+Library and Framework:
+
+Library is used to perform specific tasks it does not have the proper structure or foundation and tools and more libraries in it whereas framework has all of these.
+
+CDN:
+
+We use CDN to incorporate the whole library or framework in our project it’s basically a link where their projects is hosted and provided to us as an api which is providing us methods to use. The drawback is we need internet for this.
+
+Cross Origin:
+
+The CORS is cross origin resource sharing
+For eg:
+App A is allowed to make a call to diff domain, app A would be allowed because of cross origin in cdn link used. 
+ 
+App A   (preflight)----> App B
+             (options)---------->       
+            (additional HTTP)----->
+              (post)--------->
+Cross origin is basically app A is able to share contents to diff origin. crossorigin attribute to load resources from different domains can potentially introduce security risks if not used correctly and carefully. 
+
+Why React?
+
+React is known as react because it reacts to the data changes and state update causing rerendering and its reacting on it.
+React and React DOM:
+
+React deals with declarative approach, state management, virtual dom and component based approach whereas React DOM deals with component mounting and rendering means React DOM is a driver.
+
+CDN Prod and Dev:
+
+There is a diff between both links. Dev link provides:
+
+1- Unminified versions of libraries and assets. This helps with debugging and provides access to more detailed error messages and features like hot reloading.
+
+2- In development, assets might not be hashed or versioned, making it easier to access the latest changes without needing to update URLs frequently.
+
+Prod link provides:
+
+1- In production, it's common to use minified and compressed versions of assets to reduce file sizes and improve loading times.
+
+2-To ensure cache busting and optimal caching strategies, assets in production might be versioned or include a hash in their filenames. This way, when assets change, the URL changes as well, prompting browsers to fetch the updated asset.
+
+
+Async and Defer:
+
+ In  async attribute in script tag, html parsing and script fetching are done in parallel then it gets executed and html parsing stops and continues after execution of script.
+
+In defer fetching of script happens parallel with html parsing and stops when html parsing is done. HTML parsing is basically rendering of the page.
+
+
